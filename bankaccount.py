@@ -21,7 +21,6 @@ class BankAccount:
         cls.accounts.append(new_account)
         return new_account
 
-
     @classmethod
     def total_funds(cls):
         total = 0
